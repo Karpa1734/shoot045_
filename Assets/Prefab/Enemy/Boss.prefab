@@ -310,12 +310,12 @@ MonoBehaviour:
   startPhaseIndex: 0
   bossName: Kurosaki Koyuki
   phases:
-  - phaseName: Research01
-    moveTargetPos: {x: -2, y: 2}
+  - phaseName: "\u25CB\u7B26\u300C\u25CB\u25CB\u25CB\u25CB\u300D"
+    moveTargetPos: {x: 0, y: 2}
     initialMoveWeight: 60
     phaseMoveWeight: 60
     maxHP: 1000
-    type: 0
+    type: 1
     shotDamageRate: 40
     bombDamageRate: 20
     patternPrefab: {fileID: 1781038096083142761, guid: f020bee1f591f98438442d61b8a4810f, type: 3}
@@ -330,7 +330,7 @@ MonoBehaviour:
     scoreDropCount: 0
     specialDrop: 2
   - phaseName: Research02
-    moveTargetPos: {x: -2, y: 2}
+    moveTargetPos: {x: 0, y: 2}
     initialMoveWeight: 60
     phaseMoveWeight: 60
     maxHP: 1000
@@ -349,7 +349,7 @@ MonoBehaviour:
     scoreDropCount: 0
     specialDrop: 2
   - phaseName: Research03
-    moveTargetPos: {x: -2, y: 2}
+    moveTargetPos: {x: 0, y: 2}
     initialMoveWeight: 60
     phaseMoveWeight: 60
     maxHP: 1000
@@ -513,6 +513,18 @@ PrefabInstance:
     - target: {fileID: 6150255850176334348, guid: c5204034f7db9194d9361fa3f75e4b36, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7907697716973822126, guid: c5204034f7db9194d9361fa3f75e4b36, type: 3}
+      propertyPath: auraColor.b
+      value: 0.88825715
+      objectReference: {fileID: 0}
+    - target: {fileID: 7907697716973822126, guid: c5204034f7db9194d9361fa3f75e4b36, type: 3}
+      propertyPath: auraColor.g
+      value: 0.48584908
+      objectReference: {fileID: 0}
+    - target: {fileID: 7907697716973822126, guid: c5204034f7db9194d9361fa3f75e4b36, type: 3}
+      propertyPath: auraColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7907697716973822126, guid: c5204034f7db9194d9361fa3f75e4b36, type: 3}
       propertyPath: spriteAuraBase

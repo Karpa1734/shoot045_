@@ -7,12 +7,12 @@ public abstract class BossPatternBase : MonoBehaviour
     protected BossController controller;
     protected EnemyStatus status;
 
-    protected readonly float CENTER_X = -2.0f;
+    protected readonly float CENTER_X = -0.0f;
     protected readonly float CENTER_Y = 0.0f;
 
     [Header("Move Area Settings")]
-    protected Vector2 moveAreaMin = new Vector2(-4.5f, 1.5f);
-    protected Vector2 moveAreaMax = new Vector2(0.5f, 3.5f);
+    protected Vector2 moveAreaMin = new Vector2(-3.0f, 2.5f);
+    protected Vector2 moveAreaMax = new Vector2(3.0f, 0.5f);
 
     protected Collider2D parentCollider;
     protected SpriteRenderer bossRenderer;

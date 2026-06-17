@@ -149,6 +149,8 @@ public class PlayerStatusManager : MonoBehaviour
 
     public bool UseSpell()
     {
+        // ★撮影モード：ボムは使用できないように常に制限
+        return false;
         if (bomb > 0)
         {
             bomb--;

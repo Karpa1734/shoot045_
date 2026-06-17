@@ -29,8 +29,14 @@ public static class SEPath{
 	public const string SE_DAMAGE01         = "SE/se_damage01";
 	public const string SE_DAMAGE011        = "SE/se_damage01 1";
 	public const string SE_EXTEND2          = "SE/se_extend2";
+	public const string SE_FOCUS            = "SE/se_focus";
+	public const string SE_FOCUSFIX         = "SE/se_focusfix";
+	public const string SE_FOCUSFIX2        = "SE/se_focusfix2";
+	public const string SE_FOCUSIN          = "SE/se_focusin";
+	public const string SE_FOCUSROT         = "SE/se_focusrot";
 	public const string SE_NODAMAGE         = "SE/se_nodamage";
 	public const string SE_PLST00           = "SE/se_plst00";
+	public const string SE_SHUTTER          = "SE/se_shutter";
 	public const string SE_GRAZE            = "SE/seGraze";
 	public const string SE_PLAYER_COLLISION = "SE/sePlayerCollision";
 	public const string SE_SCORE            = "SE/seScore";
